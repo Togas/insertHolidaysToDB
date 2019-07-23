@@ -89,7 +89,7 @@ public class NewYearService {
                 preparedStmt.setInt(2, holiday.getMonth());
                 preparedStmt.setString(3, holiday.getDate());
                 preparedStmt.setString(4, holiday.getName());
-                preparedStmt.setObject(5, holiday.getState());
+                preparedStmt.setString(5, holiday.getState().toString());
 
                 preparedStmt.execute();
             }
