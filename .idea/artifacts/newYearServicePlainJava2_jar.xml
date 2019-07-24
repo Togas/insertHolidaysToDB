@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="newYearServicePlainJava2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/newYearServicePlainJava2_jar</output-path>
+    <root id="archive" name="newYearServicePlainJava2.jar">
+      <element id="module-output" name="newYearServicePlainJava2" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mariadb/jdbc/mariadb-java-client/1.1.7/mariadb-java-client-1.1.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/mariadb-java-client-2.4.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/java/dev/jna/jna/3.3.0/jna-3.3.0-platform.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/java/dev/jna/jna/3.3.0/jna-3.3.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

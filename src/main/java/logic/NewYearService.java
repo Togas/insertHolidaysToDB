@@ -75,9 +75,9 @@ public class NewYearService {
         return null;
     }
 
-    public static void writeHolidaysToDB(List<Holiday> holidays) {
+    public static void writeHolidaysToDB(List<Holiday> holidays, String dbUri) {
         try {
-            String url = "jdbc:mariadb://localhost:3306/erp-base?user=root&password=";
+            String url = "jdbc:mariadb://" + dbUri;
             Connection conn = DriverManager.getConnection(url);
             Statement st = conn.createStatement();
             // the mysql insert statement
