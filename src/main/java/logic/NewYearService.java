@@ -14,8 +14,11 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.sql.*;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Calendar;
 import java.util.List;
 
 public class NewYearService {
@@ -83,7 +86,7 @@ public class NewYearService {
             // the mysql insert statement
             String query = " insert into holidays (year, month, date, name, state)"
                     + " values (?, ?, ?, ?, ?)";
-            for(Holiday holiday: holidays) {
+            for (Holiday holiday : holidays) {
                 PreparedStatement preparedStmt = conn.prepareStatement(query);
                 preparedStmt.setInt(1, holiday.getYear());
                 preparedStmt.setInt(2, holiday.getMonth());
@@ -99,6 +102,37 @@ public class NewYearService {
             System.err.println("Got an exception! ");
             System.err.println(e.getMessage());
         }
+    }
+
+    public static List<Holiday> getAllWeekends(int year) {
+        List<Holiday> weekendList = new ArrayList<Holiday>();
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(year, 0, 1, 0, 0);
+        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        int counter = 1;
+        // The while loop ensures that you are only checking dates in the current year
+        while (calendar.get(Calendar.YEAR) == year) {
+            // The switch checks the day of the week for Saturdays and Sundays
+            switch (calendar.get(Calendar.DAY_OF_WEEK)) {
+                case Calendar.SATURDAY:
+                case Calendar.SUNDAY:
+                    String fullDate = dateFormat.format(calendar.getTime());
+                    int month = calendar.getTime().getMonth() + 1;
+                    String name;
+                    if (counter % 2 == 0) {
+                        name = counter + ". Sonntag";
+                    } else {
+                        name = counter + ". Samstag";
+                    }
+                    Holiday holiday = new Holiday(name, fullDate, year, month, States.ALL);
+                    weekendList.add(holiday);
+                    counter++;
+                    break;
+            }
+            // Increment the day of the year for the next iteration of the while loop
+            calendar.add(Calendar.DAY_OF_YEAR, 1);
+        }
+        return weekendList;
     }
 
 }

@@ -1,0 +1,20 @@
+
+]squid:S00112""FDefine and throw a dedicated exception instead of using a generic one.(õú¹
+Xsquid:UselessImportCheck"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜
+T
+squid:S106d"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿ
+2squid:S36263"Remove this redundant jump.(ÉŠ©ƒ
+Bsquid:S1168K"+Return an empty collection instead of null.(¥¹ï
+Usquid:UselessImportCheck"1Remove this unused import 'javax.naming.Context'.(¯‘—³
+\squid:UselessImportCheck"8Remove this unused import 'javax.naming.InitialContext'.(Àÿ£ø
+>squid:S1481R"'Remove this unused "st" local variable.(˜ğ×
+O
+squid:S106c"9Replace this use of System.out or System.err by a logger.(ê­ºŞ
+_squid:S2095Q"HUse try-with-resources or close this "Connection" in a "finally" clause.(­æıò
+Msquid:S1854R"6Remove this useless assignment to local variable "st".(˜ğ×
+ksquid:S2095W"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(æÑµöøÿÿÿÿ
+\squid:UselessImportCheck"8Remove this unused import 'javax.activation.DataSource'.(ÊÌâó
+^squid:S2095R"GUse try-with-resources or close this "Statement" in a "finally" clause.(˜ğ×
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(÷àƒñ
+?squid:S1148D"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148H"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
