@@ -6,17 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a00d4419-d3dc-4cd0-815b-66caf493baa1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/States.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/States.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/NewYearService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/NewYearService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Holiday.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Holiday.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/States.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/States.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logic/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/NewYearService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logic/NewYearService.class" afterDir="false" />
-    </list>
+    <list default="true" id="a00d4419-d3dc-4cd0-815b-66caf493baa1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -266,16 +256,15 @@
       <updated>1563864391345</updated>
       <workItem from="1563864397534" duration="10270000" />
       <workItem from="1563964960653" duration="5982000" />
-      <workItem from="1564559150811" duration="5155000" />
+      <workItem from="1564559150811" duration="5755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21407000" />
+    <option name="totallyTimeSpent" value="22007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19029851" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
